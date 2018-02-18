@@ -32,3 +32,11 @@ body {
 .intro img {
    padding-left: 410px;
 }
+}
+
+header {
+   background-image: url("img/backgrounds/landing.jpg");
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+}
