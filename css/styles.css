@@ -75,3 +75,7 @@ header {
   background-size: contain;
   margin-bottom: -100px;
 }
+.Topmenu img {
+  padding-top: 60px;
+  padding: 0px;
+}
