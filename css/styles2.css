@@ -1,0 +1,64 @@
+.Header {
+
+  background-image: url("../img/backgrounds/landing.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-image-width: auto;
+  height: 72vh;
+  text-align: center;
+
+}
+
+.Header p {
+
+    font-size: 250%;
+    color: white;
+    font-style: normal;
+    font-family: inherit;
+
+
+}
+
+.Mealhours img {
+   float: right;
+
+
+}
+
+.TimeShedules  {
+  background-color: orange;
+   float: left;
+}
+
+.Fastfoods {
+  width: 230px;
+  float: left;
+
+
+}
+
+.Drinks1 {
+  width: 1500px;
+  height: 900px;
+  float: right;
+  border-top: 900
+
+}
+
+.Drinks2 {
+  width: 400px;
+  height: 900px;
+  float: right;
+  border-top: 900
+
+}
+
+.container-meals{
+
+}
+.fastFoodtext table{
+  width: 250px;
+  height: 205px;
+  float: right;
+
+}
