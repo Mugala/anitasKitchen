@@ -112,3 +112,17 @@ header {
   padding-top: 170px;
 
 }
+.Customers {
+  background-color: white;
+  height: 65vh;
+  background-size: contain;
+  margin-bottom: -100px;
+
+
+}
+
+.Customers table {
+  padding-left: 400px;
+
+
+}
