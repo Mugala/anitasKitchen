@@ -63,3 +63,9 @@ header {
   font-size: 120%;
   font-weight: bold;
 }
+.main-nav li a:hover {
+  color: #1BF328;
+  border-bottom: 2px solid #1BF328;
+  transition: all 0.5s ease-in;
+  padding: 10px 0;
+}
