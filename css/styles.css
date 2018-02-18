@@ -1,0 +1,20 @@
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+.row1 {
+   max-width: 1140px;
+   margin:0 auto;
+   float: right;
+   padding-right: 30px;
+}
+.row2{
+  border-color: black;
+}
+
+body {
+
+  font-family: tahoma;
+}
