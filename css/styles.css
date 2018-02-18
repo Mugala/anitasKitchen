@@ -99,3 +99,16 @@ header {
 #drinksection{
   vertical-align: middle;
 }
+.Foodmenu {
+  background-image: url("img/backgrounds/foodsBg.jpg");
+  height: 70vh;
+  background-size: contain;
+  margin-bottom: -100px;
+
+
+}
+.Foodmenu img {
+  padding-left: 220px;
+  padding-top: 170px;
+
+}
