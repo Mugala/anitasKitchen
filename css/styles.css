@@ -45,3 +45,21 @@ header {
   text-align: center;
   font-size: 250%;
 }
+
+.main-nav {
+  list-style: none;
+  margin-top: 50px;
+
+}
+.main-nav li {
+   display: inline-block;
+   margin-left: 20px;
+
+}
+
+.main-nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 120%;
+  font-weight: bold;
+}
