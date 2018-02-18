@@ -126,3 +126,20 @@ header {
 
 
 }
+.Subscribe {
+  background-image: url("img/backgrounds/subscribe.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: -100px;
+
+}
+
+.Subscribe p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+
+
+}
