@@ -40,3 +40,8 @@ header {
    background-position: center;
    background-size: cover;
 }
+.intro p {
+  color: white;
+  text-align: center;
+  font-size: 250%;
+}
