@@ -79,3 +79,12 @@ header {
   padding-top: 60px;
   padding: 0px;
 }
+#foodsection {
+  vertical-align: middle;
+}
+#foodp{
+  vertical-align: middle;
+}
+#foodp h1{
+  float: right;
+}
