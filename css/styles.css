@@ -88,3 +88,14 @@ header {
 #foodp h1{
   float: right;
 }
+#foodp h4{
+  float: right;
+  padding-left: 200px;
+}
+#foodp p{
+  float: right;
+  padding-left: 600px;
+}
+#drinksection{
+  vertical-align: middle;
+}
