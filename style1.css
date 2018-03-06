@@ -248,3 +248,45 @@ footer p{
   padding-left: 809px;
 
 }
+#open-menu, #close-menu{
+  position: absolute;
+  font-size: 300%;
+
+}
+
+#open-menu{
+  left: 2%;
+}
+#close-menu{
+  left: 80%;
+  color: white;
+}
+ /* styling the menu */
+
+ aside{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100vw;
+   z-index: 100;
+   background-color: #A79793;
+   position: absolute;
+   left: -100%;
+
+ }
+
+
+ #the-menu {
+   list-style: none;
+ }
+ #the-menu li{
+   padding: 15%;
+   font-size: 200%;
+   text-transform: uppercase;
+
+
+ }
+ #the-menu a{
+   color: white;
+ }
