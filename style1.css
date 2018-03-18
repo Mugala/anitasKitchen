@@ -290,3 +290,8 @@ footer p{
  #the-menu a{
    color: white;
  }
+ .page-wrapper {
+   display: grid;
+   height: 100vh;
+   border: 5px solid aqua;
+ }
