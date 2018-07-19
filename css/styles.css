@@ -192,7 +192,6 @@ header {
 
 #Mealhours1 img {
   float: right;
-  padding-right: 40px;
 }
 
 #Mealhours2 img {
@@ -201,7 +200,6 @@ header {
 }
 #Mealhours3 img {
   float: right;
-  padding-left: 1px;
 }
 
 .tables {
@@ -270,7 +268,7 @@ footer p{
    height: 100vh;
    width: 100vw;
    z-index: 100;
-   background-color: #A79793;
+   background-color: #F15A29; 
    position: absolute;
    left: -100%;
 
