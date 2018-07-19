@@ -1,4 +1,3 @@
-
   $(document).ready(function() {
     $("#open-menu").click(function() {
       $("aside").animate({
@@ -10,5 +9,5 @@
         "left": "-100\%"
       }, 2500);
     });
-  
+
   });
