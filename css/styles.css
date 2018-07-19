@@ -3,40 +3,38 @@
   padding: 0;
 }
 
-.row1 {
-   max-width: 1140px;
-   margin:0 auto;
-   float: right;
-   padding-right: 30px;
-}
-.row2{
-  border-color: black;
-}
-
 body {
-
   font-family: tahoma;
 }
 
-.intro{
+/*
+================================
+Start:: CSS styles for the header
+=================================
+*/
 
+.row1 {
+  margin: 0 auto;
+  float: right;
+}
+
+.intro {
   position: absolute;
   width: 1140px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
 .intro img {
-   padding-left: 410px;
+  padding-left: 410px;
 }
 
 header {
-   background-image: url("../img/backgrounds/landing.jpg");
-   height: 100vh;
-   background-position: center;
-   background-size: cover;
+  background-image: url("../img/backgrounds/landing.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
 
 .intro p {
@@ -45,16 +43,14 @@ header {
   font-size: 250%;
 }
 
-
 .main-nav {
   list-style: none;
   margin-top: 50px;
-
 }
-.main-nav li {
-   display: inline-block;
-   margin-left: 20px;
 
+.main-nav li {
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .main-nav li a {
@@ -71,139 +67,71 @@ header {
   padding: 10px 0;
 }
 
-
-.Topmenu {
-  background-color: white;
-  height: 120vh;
-  background-size: contain;
-  margin-bottom: -100px;
+#open-menu, #close-menu {
+  position: absolute;
+  font-size: 300%;
 }
 
-.Topmenu img {
-  padding-top: 60px;
-  padding: 0px;
+#open-menu {
+  left: 2%;
 }
 
-#foodsection {
-  vertical-align: middle;
-}
-#foodp{
-  vertical-align: middle;
-}
-#foodp h1{
-  float: right;
-}
-#foodp h4{
-  float: right;
-  padding-left: 200px;
-}
-#foodp p{
-  float: right;
-  padding-left: 600px;
-}
-#drinksection{
-  vertical-align: middle;
-}
-
-.Foodmenu {
-  background-image: url("../img/backgrounds/foodsBg.jpg");
-  height: 70vh;
-  background-size: contain;
-  margin-bottom: -100px;
-
-
-}
-.Foodmenu img {
-  padding-left: 220px;
-  padding-top: 170px;
-
-}
-.Customers {
-  background-color: white;
-  height: 65vh;
-  background-size: contain;
-  margin-bottom: -100px;
-
-
-}
-
-.Customers table {
-  padding-left: 400px;
-
-
-}
-
-.Subscribe {
-  background-image: url("../img/backgrounds/subscribe.jpg");
-  height: 49vh;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-bottom: -100px;
-
-}
-
-.Subscribe p {
+#close-menu {
+  left: 80%;
   color: white;
-  text-align: center;
-  font-size: 30px;
-  padding-top: 100px;
-
-
-}
-.btn {
-  border: 1px;
-  padding-left: 110px;
-  text-decoration: none;
-
 }
 
-.btn-half {
-  border: solid #B5ADAD;
-  background-color: #BDB5B5;
-  text-decoration: none;
+/* styling the menu */
 
-}
-
-.btn-half  {
-  color: white;
-  text-decoration: none;
-
-}
-
-.btn-full{
-  border: solid #F15A29;
-  background-color:#F15A29 ;
-
-}
-
-.Email {
-  background-color: #DCDEEC
-}
-
-.Member {
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
   background-color: #F15A29;
-
-}
-.buttons {
-  padding-left: 620px;
-  font-size: 40px;
-
+  position: absolute;
+  left: -100%;
 }
 
-#Mealhours1 img {
-  float: right;
+#the-menu {
+  list-style: none;
 }
 
-#Mealhours2 img {
-  float: right;
-
+#the-menu li {
+  padding: 15%;
+  font-size: 200%;
+  text-transform: uppercase;
 }
-#Mealhours3 img {
-  float: right;
+
+#the-menu a {
+  color: white;
+}
+
+/*
+==========================
+ End:: The header styles
+==========================
+*/
+
+/*
+================================
+Start:: CSS styles for the breakfast, lunch and dinner.
+=================================
+*/
+
+#Party-Time {
+  background-color: #F15A29;
 }
 
 .tables {
   padding-left: 41px;
+}
+
+.buttons {
+  padding-left: 620px;
+  font-size: 40px;
 }
 
 .tables button {
@@ -211,9 +139,123 @@ header {
   height: 105px;
 }
 
-#Party-Time {
+/*
+==========================
+ End:: The breakfast, lunch and dinner styles.
+==========================
+*/
+
+/*
+================================
+Start:: CSS styles for the foods & Drinks.
+=================================
+*/
+
+/*
+==========================
+ End:: The foods & Drinks styles.
+==========================
+*/
+
+/*
+================================
+Start:: CSS styles for the menu.
+=================================
+*/
+
+.Foodmenu {
+  background-image: url("../img/backgrounds/foodsBg.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Foodmenu-scroll {
+  height: 200px;
+  width: 450px;
+  background-color: #DCDEEC;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+/*
+==========================
+ End:: The menu styles.
+==========================
+*/
+
+/*
+================================
+Start:: CSS styles for the customers.
+=================================
+*/
+
+.Customers {
+  background-color: white;
+  height: 65vh;
+  background-size: contain;
+  margin-bottom: -100px;
+}
+
+.Customers table {
+  padding-left: 400px;
+}
+
+/*
+==========================
+ End:: The customers styles.
+==========================
+*/
+
+/*
+================================
+Start:: CSS styles for the subscription.
+=================================
+*/
+
+.Subscribe {
+  background-image: url("../img/backgrounds/subscribe.jpg");
+  height: 49vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: -100px;
+}
+
+.Subscribe p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+.Email {
+  background-color: #DCDEEC
+}
+
+.btn {
+  border: 1px;
+  padding-left: 110px;
+  text-decoration: none;
+}
+
+.btn-full {
+  border: solid #F15A29;
   background-color: #F15A29;
 }
+
+/*
+==========================
+ End:: The subscription styles.
+==========================
+*/
+
+/*
+================================
+Start:: CSS styles for the footer.
+=================================
+*/
+
 footer {
   background-color: #F15A29;
   height: 52vh;
@@ -222,6 +264,7 @@ footer {
   background-size: cover;
   color: white;
 }
+
 .f-logo {
   float: left;
   padding-left: 793px;
@@ -233,58 +276,24 @@ footer h2 {
   font-size: 320%;
   padding-top: 145px;
 }
-#footer-statement{
+
+#footer-statement {
   padding-top: 250px;
   padding-left: 788px;
   font-size: 150%;
 }
-.social-media{
-    padding-left: 830px
+
+.social-media {
+  padding-left: 830px
 }
-footer p{
+
+footer p {
   padding-top: 450px;
   padding-left: 809px;
-
-}
-#open-menu, #close-menu{
-  position: absolute;
-  font-size: 300%;
-
 }
 
-#open-menu{
-  left: 2%;
-}
-#close-menu{
-  left: 80%;
-  color: white;
-}
- /* styling the menu */
-
- aside{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
-   width: 100vw;
-   z-index: 100;
-   background-color: #F15A29; 
-   position: absolute;
-   left: -100%;
-
- }
-
-
- #the-menu {
-   list-style: none;
- }
- #the-menu li{
-   padding: 15%;
-   font-size: 200%;
-   text-transform: uppercase;
-
-
- }
- #the-menu a{
-   color: white;
- }
+/*
+==========================
+ End:: The footer styles.
+==========================
+*/
