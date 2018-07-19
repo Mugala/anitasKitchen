@@ -1,5 +1,4 @@
 * {
-
   margin: 0;
   padding: 0;
 }
@@ -34,7 +33,7 @@ body {
 }
 
 header {
-   background-image: url("img/backgrounds/landing.jpg");
+   background-image: url("../img/backgrounds/landing.jpg");
    height: 100vh;
    background-position: center;
    background-size: cover;
@@ -107,7 +106,7 @@ header {
 }
 
 .Foodmenu {
-  background-image: url("img/backgrounds/foodsBg.jpg");
+  background-image: url("../img/backgrounds/foodsBg.jpg");
   height: 70vh;
   background-size: contain;
   margin-bottom: -100px;
@@ -135,8 +134,8 @@ header {
 }
 
 .Subscribe {
-  background-image: url("img/backgrounds/subscribe.jpg");
-  height: 50vh;
+  background-image: url("../img/backgrounds/subscribe.jpg");
+  height: 49vh;
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: -100px;
@@ -191,33 +190,6 @@ header {
 
 }
 
-footer {
-   background-color: #F15A29;
-   height: 40vh;
-   background-position: center;
-   background-size: cover;
-}
-footer h3{
-  padding-left: 20px;
-  padding-right: 840px;
-  padding-top: 80px;
-  float: right;
-  color: white;
-}
-footer img {
-  float: left;
-  padding-left: 840px;
-  padding-top: 70px;
-
-}
-footer p {
-  float: left;
-  padding-left: 840px;
-  padding-top: 20px;
-  font-size: 19px;
-  color: white;
-}
-
 #Mealhours1 img {
   float: right;
   padding-right: 40px;
@@ -243,6 +215,38 @@ footer p {
 
 #Party-Time {
   background-color: #F15A29;
+}
+footer {
+  background-color: #F15A29;
+  height: 52vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.f-logo {
+  float: left;
+  padding-left: 793px;
+  padding-top: 150px;
+}
+
+footer h2 {
+  float: left;
+  font-size: 320%;
+  padding-top: 145px;
+}
+#footer-statement{
+  padding-top: 250px;
+  padding-left: 788px;
+  font-size: 150%;
+}
+.social-media{
+    padding-left: 830px
+}
+footer p{
+  padding-top: 450px;
+  padding-left: 809px;
+
 }
 #open-menu, #close-menu{
   position: absolute;
@@ -286,4 +290,3 @@ footer p {
  #the-menu a{
    color: white;
  }
-
