@@ -16,6 +16,7 @@ Start:: CSS styles for the header
 .row1 {
   margin: 0 auto;
   float: right;
+  padding-right: 10px;
 }
 
 .intro {
@@ -151,6 +152,10 @@ Start:: CSS styles for the foods & Drinks.
 ==========================================
 */
 
+.Food {
+  margin: 40px;
+}
+
 /*
 =================================
  End:: The foods & Drinks styles.
@@ -159,29 +164,41 @@ Start:: CSS styles for the foods & Drinks.
 
 /*
 ================================
-Start:: CSS styles for the menu.
+Start:: CSS styles for the food menu.
 ================================
 */
 
 .Foodmenu {
   background-image: url("../img/backgrounds/foodsBg.jpg");
-  height: 70vh;
+  height: 80vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .Foodmenu-scroll {
-  height: 200px;
-  width: 450px;
-  background-color: #DCDEEC;
+  height: 400px;
+  width: 1050px;
+  background-color: white;
   position: relative;
-  top: 50%;
-  left: 50%;
+  top: 25%;
+  left: 22%;
+  right: 20%;
+  bottom: 30%;
 }
 
+.food-categories {
+  font-size: 25px;
+}
+
+.food-pictures {
+ margin-left: 310px;
+ margin-top: -100px; 
+}
+
+picture
 /*
 =======================
- End:: The menu styles.
+ End:: The food menu styles.
 =======================
 */
 
@@ -198,8 +215,32 @@ Start:: CSS styles for the customers.
   margin-bottom: -100px;
 }
 
-.Customers table {
-  padding-left: 400px;
+
+.customer-scroll {
+  height: 300px;
+  width: 1170px;
+  background-color:white;
+  top: 20%;
+  left: 25%;
+  right: 20%;
+  bottom: 30%;
+  margin-top: 100px;
+  margin-left: 340px;
+}
+
+.customer-section {
+  height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.customer-views {
+  border: cornflowerblue solid 2px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  padding: 8px;
+  text-align: center;
+
 }
 
 /*
@@ -214,7 +255,7 @@ Start:: CSS styles for the subscription.
 ========================================
 */
 
-.Subscribe {
+.subscribe {
   background-image: url("../img/backgrounds/subscribe.jpg");
   height: 49vh;
   background-repeat: no-repeat;
@@ -222,26 +263,19 @@ Start:: CSS styles for the subscription.
   margin-bottom: -100px;
 }
 
-.Subscribe p {
+.subscribe h4 {
   color: white;
   text-align: center;
+  padding-top: 110px;
+  padding-right: 30px;
   font-size: 30px;
-  padding-top: 100px;
+  font-weight: 200%;
 }
 
-.Email {
-  background-color: #DCDEEC
-}
-
-.btn {
-  border: 1px;
-  padding-left: 110px;
-  text-decoration: none;
-}
-
-.btn-full {
-  border: solid #F15A29;
+.subscribe button {
   background-color: #F15A29;
+  color: beige;
+  width: 200px; 
 }
 
 /*
